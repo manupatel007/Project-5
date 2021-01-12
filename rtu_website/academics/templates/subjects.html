@@ -1,0 +1,6 @@
+<h1>Choose Your subject</h1>
+
+{% for dbb in dbba %}
+<a href="{% url 'multi' mod dbb.subject %}">{{dbb.subject}}</a>
+<br>
+{% endfor %}

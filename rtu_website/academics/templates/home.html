@@ -1,0 +1,7 @@
+<h1>Branches</h1>
+<a href="#">First Year</a>
+<br>
+{% for dbb in dbba %}
+<a href="{% url 'year' dbb.name %}"><h5>{{dbb.name}}</h5></a>
+<br>
+{% endfor %}
